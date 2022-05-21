@@ -1,0 +1,146 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	font-family: "Exo";
+}
+
+.topbar {
+	height: 115px;
+	left: 0px;
+	top: 0px;
+	background: rgba(255, 255, 255, 0.3);
+	backdrop-filter: blur(4px);
+}
+
+.login-container {
+	background-image: url(images/image-background.png);
+	background-size: cover;
+	height: 100vh;
+}
+
+.game-name {
+	position: absolute;
+	left: 4.42%;
+	right: 4.42%;
+	top: 21.62%;
+	bottom: 21.62%;
+}
+
+.form-container {
+	float: right;
+	margin-right: 100px;
+	margin-top: 63px;
+	width: 462px;
+	height: 702px;
+	background: #f0f0f0;
+	border-radius: 12px;
+}
+.text-welcome {
+	font-style: normal;
+	font-weight: 700;
+	font-size: 20px;
+	line-height: 27px;
+	text-align: center;
+	color: #515151;
+	margin-bottom: 8px;
+}
+.text-login {
+	font-family: "Exo";
+	font-style: normal;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 21px;
+	align-items: center;
+	text-align: center;
+	color: #515151;
+	margin-bottom: 32px;
+}
+.input-text {
+	height: 47px;
+	width: 362px;
+	border-radius: 4px;
+	border: none;
+	padding-left: 16px;
+	padding-right: 16px;
+	margin-bottom: 16px;
+
+	font-size: 15px;
+	line-height: 20px;
+	display: flex;
+	align-items: center;
+	color: #939393;
+}
+.login-button {
+	background: #4cc986;
+	border-radius: 6px;
+	font-family: "Exo";
+	font-style: normal;
+	font-weight: 700;
+	font-size: 18px;
+	line-height: 71px;
+	display: flex;
+	align-items: center;
+	text-align: center;
+	color: #ffffff;
+	width: 100%;
+	border: none;
+	margin: auto;
+	padding: 0px;
+	padding: 0;
+	display: inline-block;
+	line-height: 50px;
+	text-align: center;
+	text-decoration: none;
+}
+
+.info-form {
+	margin-top: 40px;
+	margin-bottom: 40px;
+	margin-left: 50px;
+	margin-right: 50px;
+}
+
+input[type="checkbox"] {
+	box-sizing: border-box;
+	border: 1.5px solid #8f8f8f;
+	border-radius: 4px;
+	height: 20px;
+	width: 20px;
+	display: flex;
+}
+.remember-user {
+	display: flex;
+	justify-content: center;
+	width: 40%;
+	position: relative;
+	float: left;
+}
+.forgot-password {
+	display: inline-block;
+	float: right;
+	height: 19px;
+	left: 81.93%;
+	right: 10.02%;
+	top: calc(50% - 19px / 2 - 85.5px);
+	font-style: normal;
+	font-weight: 600;
+	font-size: 14px;
+	line-height: 19px;
+	display: flex;
+	align-items: center;
+	text-align: right;
+	color: #36b972;
+}
+.register-now {
+	height: 19px;
+	left: 79.37%;
+	right: 14.72%;
+	top: calc(50% - 19px / 2 + 37.5px);
+	font-style: normal;
+	font-weight: 600;
+	font-size: 14px;
+	line-height: 19px;
+	text-align: right;
+	color: #36b972;
+}
