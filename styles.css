@@ -5,6 +5,11 @@
 	font-family: "Exo";
 }
 
+a {
+	text-decoration: none;
+	color: #36b972;
+}
+
 .topbar {
 	height: 115px;
 	left: 0px;
@@ -79,19 +84,18 @@
 	font-weight: 700;
 	font-size: 18px;
 	line-height: 71px;
-	display: flex;
 	align-items: center;
 	text-align: center;
 	color: #ffffff;
 	width: 100%;
 	border: none;
-	margin: auto;
 	padding: 0px;
 	padding: 0;
 	display: inline-block;
 	line-height: 50px;
-	text-align: center;
 	text-decoration: none;
+	margin-bottom: 32px;
+	margin-top: 24px;
 }
 
 .info-form {
@@ -108,6 +112,11 @@ input[type="checkbox"] {
 	height: 20px;
 	width: 20px;
 	display: flex;
+}
+input[type="checkbox"]:checked {
+	background-color: #36b972;
+	border: solid 1px #36b972;
+	transform: rotate(360deg);
 }
 .remember-user {
 	display: flex;
@@ -143,4 +152,81 @@ input[type="checkbox"] {
 	line-height: 19px;
 	text-align: right;
 	color: #36b972;
+}
+.divider {
+	flex: 3;
+	height: 1px;
+	background-color: #515151;
+}
+
+.flex-container {
+	display: flex;
+	margin-top: 24px;
+}
+
+.w100 {
+	width: 100%;
+}
+.align-center {
+	align-items: center;
+}
+.divider-text {
+	text-align: center;
+	width: 67px;
+}
+.login-facebook {
+	border-radius: 6px;
+	border: 2px solid #36b972;
+	font-weight: 700;
+	font-size: 18px;
+	line-height: 47px;
+	align-items: center;
+	text-align: center;
+	color: #36b972;
+	width: 100%;
+	margin: auto;
+	padding: 0px;
+	padding: 0;
+	display: inline-block;
+	text-align: center;
+	text-decoration: none;
+	margin-top: 30px;
+}
+.login-twitter {
+	border-radius: 6px;
+	border: 2px solid #36b972;
+	font-weight: 700;
+	font-size: 18px;
+	line-height: 47px;
+	align-items: center;
+	text-align: center;
+	color: #36b972;
+	width: 100%;
+	margin: auto;
+	padding: 0px;
+	padding: 0;
+	display: inline-block;
+	text-align: center;
+	text-decoration: none;
+	margin-top: 24px;
+}
+.login-google {
+	border-radius: 6px;
+	border: 2px solid #36b972;
+	font-style: normal;
+	font-weight: 700;
+	font-size: 18px;
+	line-height: 47px;
+	align-items: center;
+	text-align: center;
+	color: #36b972;
+	width: 100%;
+	margin: auto;
+	padding: 0px;
+	padding: 0;
+	display: inline-block;
+	text-align: center;
+	text-decoration: none;
+	margin-top: 24px;
+	margin-bottom: 40px;
 }
